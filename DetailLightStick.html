@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DetailLightStick</title>
+    <link rel="stylesheet" href="./css/Detail.css">
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_content">
+            <a class="header_content_logo" href="./index.html">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <div style="width: 130px; height: 100%" class="header_content_category">
+                <a href="" class="header_content_list">
+                    <span>Sản phẩm</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <div style="height: 150px;" class="header_content_product">
+                    <a href="./MenuAlbum.html">
+
+                        <span>Album</span>
+                    </a>
+                    <a href="./MenuLightStick.html">
+
+                        <span>Lightstick</span>
+                    </a>
+                    <a href="./MenuMerchandise.html">
+
+                        <span>Merchandise</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="header_content_items">
+                <a href="./Cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Giỏ hàng</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="home">
+        <!-- mapping album -->
+        <div class="mapping_page"><a href="./index.html">Home</a> / <a href="./MenuLightStick.html">LightStick</a> / DETAIL
+        </div>
+        <!-- product -->
+        <div class="product">
+            <div class="pd_img">
+                <!-- render img -->
+                <img src="" alt="">
+            </div>
+            <div class="pd_detail">
+                <!-- render title -->
+                <h1></h1>
+                <span class="pd_sku">
+                    <strong>Mã sản phẩm: </strong>
+                    "Đang cập nhật"
+                </span>
+                <div class="pd_detail_content">
+                    <p style="width: 200px;margin-top: 18px;"></p>
+                    <div class="pd_detail_content_left">
+                        <!-- render price -->
+                        
+                        <p></p>
+                        <!-- render id to quantity-->
+                    </div>
+                    <div class="pd_detail_content_right">
+                        <h2>Dịch vụ của chúng tôi</h2>
+                        <div class="content">
+                            <i class="fa-solid fa-truck-fast"
+                                style="display: inline-block; font-size: 20px;padding: 10px 10px 0 0;"></i>
+                            <div class="content_p">
+                                <p>Giao hàng toàn quốc qua các đơn vị vận chuyển <span>HÀNG TIẾT KIỆM</span>, <span>GIAO
+                                        HÀNG NHANH</span>, <span>Viettel post</span></p>
+                                <p>Giao hàng nội thành SÀI GÒN - Hỏa tốc trong ngày</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- add cart -->
+                
+                <button onclick="addItem()" id="add">Thêm vào giỏ hàng</button>
+                <h2>Xin đừng bỏ qua</h2>
+                <ul>
+                    <li>Album Chính hãng - nguyên seal</li>
+                    <li>Nhập trực tiếp từ phân phối uy tín Hàn Quốc</li>
+                    <li>Album được tính điểm bảng xếp hạng Hanteo và Gaon.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- chi tiết nội dung-->
+        <div class="description">
+            <h2>mô tả sản phẩm</h2>
+            <div class="description_content">
+                <!-- render title -->
+                <h1 style="color: #CD7FC7;"></h1>
+                <h3 style="color: #F70A8D; margin: 0 0 20px 0;"><i class="fa-solid fa-circle-exclamation"
+                        style="margin-right: 10px;"></i>Album detail</h3>
+                <!-- render cointent -->
+                <div class="list"></div>
+            </div>
+        </div>
+
+        <!-- chi tiết hình ảnh -->
+        <div class="description">
+            <h2>chi tiết sản phẩm</h2>
+            <div class="description_img">
+                <!-- render img description -->
+                <img src="" alt="">
+            </div>
+        </div>
+        <!-- sản phẩm liên quan -->
+        <div class="description">
+            <h2>sản phẩm liên quan</h2>
+            <div class="related">
+                <div class="content_menu_max_list"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer_container">
+            <div class="footer_container_brand">
+                <div class="footer_logo">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                    <div class="footer_logo_internet">
+                        <a href="https://www.facebook.com/profile.php?id=100009418012261&locale=vi_VN"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_caniburweaknd_/"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuAlbum.html">ALBUM</a></div>
+                    <p href="">
+                        Photobook ver
+                    </p>
+                    <p href="">
+                        QR ver
+                    </p>
+                    <p href="">
+                        Standard ver
+                    </p>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuLightStick.html">LIGHTSTICK</a></div>
+                    <p href="">
+                        LightStick
+                    </p>
+                    <p href="">
+                        Light Ring
+                    </p>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuMerchandise.html">MERCHANDISE</a></div>
+                    <p href="">
+                        Card bo góc
+                    </p>
+                    <p href="">
+                        Đồ trang trí
+                    </p>
+                    <p href="">
+                        Sản phẩm khác
+                    </p>
+                </div>
+            </div>
+            <div class="footer_line">
+
+            </div>
+            <div class="footer_copyright">
+                ©2024 IDOLISTIC International Corp. All Rights Reserved. 
+            </div>
+            <div class="footer_contact">
+                Liên hệ: uel@gmail.com
+            </div>
+        </div>
+    </div>
+    <section id="btnSection" style="position: fixed;z-index: 1;bottom: 2em;right: 2em;">
+        <div class="contact tooltip-container">
+            <button class="text"  style="width: 180px;height: 60px;border: none;background-color: #ed3fb3;border-radius: 10px;font-size: 24px;cursor: pointer;color: white;" ><i style="font-size: 24px;margin-right: 5px;" class="fa-regular fa-comment"></i> Liên hệ</button>
+            <span class="tooltip">Click Me</span>
+            
+            <span>Hello! 👋</span>
+        </div>
+        <div class="overlay"></div>
+        <div class="contact_items">
+            
+           <a  href="tel:0984858917">
+            <div class="contact_item"><img src="./img/icon_phone3.jpg" alt=""><span>0984858917</span></div>
+           </a>
+           <a  href="https://zalo.me/0984858917">
+            <div class="contact_item"><img src="./img/icon_zl.jpg" alt=""><span>0984 85 89 17</span></div>
+           </a>
+           <a  href="https://www.facebook.com/profile.php?id=100009418012261&locale=vi_VN">
+            <div class="contact_item"><img src="./img/icon_fb.png" alt=""><span>Facebook</span></div>
+           </a>
+        </div>
+    </section>
+    <script>
+        const btnsection = document.querySelector("#btnSection");
+        const btncontact = document.querySelector(".contact_items");
+        btnsection.addEventListener("click",() =>{
+            btncontact.classList.add("active");
+            setTimeout(() => {
+                btncontact.classList.remove("active")
+            },5000);
+        })
+        //
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+        let cart = JSON.parse(localStorage.getItem("CART")) || [];
+        
+       
+        const list = {
+            items: [
+            {
+                    id: "lt_01",
+                    title: "OFFICE LIGHTSTICK - IZ*ONE ",
+                    img: "./img/lt_1.jpg",
+                    price: 900000,
+                    content: null,
+                    imgDescription: "./img/lt_1_1.jpgg"
+                },
+                {
+                    id: "lt_02",
+                    title: "OFFICIAL LIGHTSTICK - GFRIEND",
+                    img: "./img/lt_2.jpg",
+                    price: 950000,
+                    content: null,
+                    imgDescription: null
+                },
+                {
+                    id: "lt_03",
+                    title: "OFFICIAL LIGHTSTICK - TREASURE",
+                    img: "./img/lt_4.png",
+                    price: 920000,
+                    content: null,
+                    imgDescription: "./img/lt_4_1.webp"
+                },
+                {
+                    id: "lt_04",
+                    title: "OFFICIAL LIGHTSTICK - SEVENTEEN",
+                    img: "./img/lt_5.jpg",
+                    price: 990000,
+                    content: null,
+                    imgDescription: "./img/lt_5_1.jpg"
+                },
+                {
+                    id: "lt_05",
+                    title: "OFFICIAL LIGHT RING - ITZY",
+                    img: "./img/lt_6.jpg",
+                    price: 990000,
+                    content: null,
+                    imgDescription: "./img/lt_6_1.jpg"
+                },
+                {
+                    id: "lt_06",
+                    title: "OFFICIAL LIGHTSTICK - STAYC",
+                    img: "./img/lt_7.jpg",
+                    price: 900000,
+                    content:[
+                        "SIZE : 101 x 95 x 248 (mm)",
+                        "POWER : AAA x 3ea",
+                        "BLUETOOTH : BLUETOOTH 5.0 (Operating) RANGE - 10m",
+                        "COMPONENTS : OUT BOX + LIGHT STICK + STRAP + WARRANTY"
+                    ],
+                    imgDescription: null
+                },
+                {
+                    id: "lt_07",
+                    title: "OFFICIAL LIGHTSTICK - AESPA",
+                    img: "./img/lt_8.jpg",
+                    price: 950000,
+                    content: [
+                        "COMPONENTS : Light Stick + Strap + User Guide",
+                        "SIZE : 90 x 94 x 257 (mm)",
+                        "MATERIALS : ABS, PC",
+                        "POWER : AAA Batteries x 3ea",
+                        "USAGE TIME : About 3 Hours"
+                    ],
+                    imgDescription: "./img/lt_8_1.webp"
+                },
+                {
+                    id: "lt_08",
+                    title: "OFFICIAL LIGHTSTICK - ASTRO",
+                    img: "./img/lt_9.jpg",
+                    price: 880000,
+                    content: null,
+                    imgDescription: "./img/lt_9_1.webp"
+                },
+                {
+                    id: "lt_09",
+                    title: "OFFICIAL LIGHTSTICK - LOONA",
+                    img: "./img/lt_10 (1).jpg",
+                    price: 1100000,
+                    content: null,
+                    imgDescription: "./img/lt_10_1.jpg"
+                },
+                {
+                    id: "lt_10",
+                    title: "OFFICIAL LIGHTSTICK VER.2 - ATEEZ",
+                    img: "./img/ateez-md-goods-ateez-official-light-stick-ver-2-34415646146741.webp",
+                    price: 950000,
+                    content: null,
+                    imgDescription: "./img/ateezdetail.webp"
+                },
+
+            ],
+            render: function () {
+                const htmls = this.items.map(item => {
+                    return `
+                        <div class="menu_item_single">
+                            <a href="./DetailAlbum.html?id=${item.id}">
+                                <img src="${item.img}" alt="">
+                                <div class="menu_item_name">${item.title}</div>
+                            </a>
+                        </div>
+                    `
+                })
+                $('.content_menu_max_list').innerHTML = htmls.join('')
+            },
+            
+        
+            renderRelate: function () {
+                const listAlbumRelate = this.items.slice(0, 4).map(item => {
+                    return `
+                        <div class="menu_item_single">
+                            <a href="./DetailLightStick.html?id=${item.id}">
+                                <img src="${item.img}" alt="">
+                                <div class="menu_item_name">${item.title}</div>
+                            </a>
+                        </div>
+                    `
+                })
+                $('.description .related .content_menu_max_list').innerHTML = listAlbumRelate.join('')
+            },
+            showDetail: function () {
+                let detail = $('.home');
+                let productID = new URLSearchParams(window.location.search).get('id');
+                let thisProduct = this.items.find(item => {
+                    return item.id == productID
+                })
+                if (!thisProduct) {
+                    window.location.href = "./index.html";
+                }
+                let search = cart.find((item) => item.id === thisProduct.id) || [];
+
+                detail.querySelector(".product .pd_img img").src = thisProduct.img;
+                detail.querySelector(".product .pd_detail h1").innerText = thisProduct.title;
+                
+                const formattedPrice = thisProduct.price.toLocaleString('vi-VN', { style: 'currency', currency: 'VND' });
+                detail.querySelector(".product .pd_detail .pd_detail_content p").innerText = formattedPrice;
+                detail.querySelector(".description .description_content h1").innerText = thisProduct.title;
+                if (thisProduct.content) {
+                    for (let i in thisProduct.content) {
+                        detail.querySelector(".description .description_content .list").innerText += (thisProduct.content[i] + "\n");
+                    }
+                }
+                detail.querySelector(".description .description_img img").src = thisProduct.imgDescription;
+                detail.querySelector(".pd_detail_content_left").innerHTML =`
+                        <div class="buttons">
+                            <i onclick="decrementItem(${thisProduct.id})" class="fa-solid fa-minus"></i>
+                            <div id="${thisProduct.id}" class="quantity">${search.item === undefined ? 0 : search.item}</div>
+                            <i onclick="incrementItem(${thisProduct.id})" class="fa-solid fa-plus"></i>
+                        </div>
+                `;
+            },
+            start: function () {
+                this.render()
+            },
+            detail: function () {
+                this.renderRelate()
+                this.showDetail()
+            }
+        }
+        list.detail()
+
+        // increment
+        let incrementItem = (id) => {
+            let selectedItem = id;
+            let itemInList = list.items.find((product) => product.id === selectedItem.id);
+            let search = cart.find((product) => product.id === selectedItem.id);
+            if (search === undefined) {
+                cart.push({
+                    id: selectedItem.id,
+                    item: 1,
+                    title: itemInList.title,
+                    price: itemInList.price,
+                    img: itemInList.img
+                })
+            } else {
+                search.item += 1;
+            }
+
+            // console.log(cart);
+            updateItem(selectedItem.id);
+            // localStorage.setItem("CART", JSON.stringify(cart));
+        }
+
+        // decrement
+        let decrementItem = (id) => {
+            let selectedItem = id;
+            let itemInList = list.items.find((product) => product.id === selectedItem.id);
+            let search = cart.find((product) => product.id === selectedItem.id);
+            if(search === undefined) return;
+            if (search.item === 0) {
+                return;
+            } else {
+                search.item -= 1;
+            }
+
+            // console.log(cart);
+            updateItem(selectedItem.id);
+            cart = cart.filter((product) => product.item !== 0)
+
+            // localStorage.setItem("CART", JSON.stringify(cart));
+        }
+
+        // update
+        let updateItem = (id) => {
+            let search = cart.find((product) => product.id === id);
+            let button = $(".buttons");
+            button.querySelector("#" + id).innerHTML = search.item;
+        }
+
+        let addItem = () => {
+            localStorage.setItem("CART", JSON.stringify(cart));
+        }
+        
+        let renderCart = () => {
+            let cartIcon = document.querySelector(".header_content_items a[href='./Cart.html'] span");
+            if (cart.length !== 0) {
+                let totalQuantity = cart.reduce((acc, currentValue) => acc + currentValue.item, 0);
+
+                // Cập nhật biểu tượng giỏ hàng với tổng số lượng
+                cartIcon.innerText = totalQuantity;
+            }
+        }
+        renderCart()
+    </script>
+</body>
+
+</html>

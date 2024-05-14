@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuMerchandise</title>
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/Menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="header_content">
+            <a class="header_content_logo" href="./index.html">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <div style="width: 130px; height: 100%" class="header_content_category">
+                <a href="" class="header_content_list">
+                    <span>Sản phẩm</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <div style="height: 150px;" class="header_content_product">
+                    <a href="./MenuAlbum.html">
+
+                        <span>Album</span>
+                    </a>
+                    <a href="./MenuLightStick.html">
+
+                        <span>Lightstick</span>
+                    </a>
+                    <a href="./MenuMerchandise.html">
+
+                        <span>Merchandise</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="header_content_items">
+                <a href="./Cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Giỏ hàng</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="navigation_banner">
+            <img style="height: 800px;" src="./img/banner_merchandise.jpg" alt="">
+            <div class="navigation_banner_right">
+
+            </div>
+        </div>
+        <div class="navigation_options">
+            <div style="background-color: #957DAD;" class="navigation_option_list">
+                <a style="margin-left: 25px" href="./MenuAlbum.html">
+                    <img src="./img/icon_album2.jpg" alt="">
+                    <span style="color: #fff;"> Album</span>
+                </a>
+                <a href="./MenuLightStick.html">
+                    <img style="margin-left: 25px;" src="./img/icon_lt3.jpg" alt="">
+                    <span style="color: #fff;">Lightstick</span>
+                </a>
+                <a href="./MenuMerchandise.html">
+                    <img style="margin-left: 35px;" src="./img/icon_lt.jpg" alt="">
+                    <span style="color: #fff;">Merchandise</span>
+                </a>
+                <div class="search">
+                    <input style="width: 200px;height: 40px;border-radius: 10px;border: none;padding: 0 10px;position: relative;font-size: 15px;" type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm...">
+                    <button style="background: none;border: none;position: absolute;left: 93%;margin-top: 11px;" id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_section">
+        <div class="content_menu">
+            <div class="content_menu_max">
+                <div class="content_menu_max_list">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer_container">
+            <div class="footer_container_brand">
+                <div class="footer_logo">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                    <div class="footer_logo_internet">
+                        <a href="https://www.facebook.com/profile.php?id=100009418012261&locale=vi_VN"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_caniburweaknd_/"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuAlbum.html">ALBUM</a></div>
+                    <p href="">
+                        Photobook ver
+                    </p>
+                    <p href="">
+                        QR ver
+                    </p>
+                    <p href="">
+                        Standard ver
+                    </p>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuLightStick.html">LIGHTSTICK</a></div>
+                    <p href="">
+                        LightStick
+                    </p>
+                    <p href="">
+                        Light Ring
+                    </p>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuMerchandise.html">MERCHANDISE</a></div>
+                    <p href="">
+                        Card bo góc
+                    </p>
+                    <p href="">
+                        Đồ trang trí
+                    </p>
+                    <p href="">
+                        Sản phẩm khác
+                    </p>
+                </div>
+            </div>
+            <div class="footer_line">
+
+            </div>
+            <div class="footer_copyright">
+                ©2024 IDOLISTIC International Corp. All Rights Reserved. 
+            </div>
+            <div class="footer_contact">
+                Liên hệ: uel@gmail.com
+            </div>
+        </div>
+    </div>
+    <section id="btnSection" style="position: fixed;z-index: 1;bottom: 2em;right: 2em;">
+        <div class="contact tooltip-container">
+            <button class="text"  style="width: 180px;height: 60px;border: none;background-color: #ed3fb3;border-radius: 10px;font-size: 24px;cursor: pointer;color: white;" ><i style="font-size: 24px;margin-right: 5px;" class="fa-regular fa-comment"></i> Liên hệ</button>
+            <span class="tooltip">Click Me</span>
+            
+            <span>Hello! 👋</span>
+        </div>
+        <div class="overlay"></div>
+        <div class="contact_items">
+            
+           <a  href="tel:0984858917">
+            <div class="contact_item"><img src="./img/icon_phone3.jpg" alt=""><span>0984858917</span></div>
+           </a>
+           <a  href="https://zalo.me/0984858917">
+            <div class="contact_item"><img src="./img/icon_zl.jpg" alt=""><span>0984 85 89 17</span></div>
+           </a>
+           <a  href="https://www.facebook.com/profile.php?id=100009418012261&locale=vi_VN">
+            <div class="contact_item"><img src="./img/icon_fb.png" alt=""><span>Facebook</span></div>
+           </a>
+        </div>
+    </section>
+    <script>
+        const btnsection = document.querySelector("#btnSection");
+        const btncontact = document.querySelector(".contact_items");
+        btnsection.addEventListener("click",() =>{
+            btncontact.classList.add("active");
+            setTimeout(() => {
+                btncontact.classList.remove("active")
+            },5000);
+        })
+        //
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+        
+        const list = {
+            items: [
+            {
+                    id: "mc_01",
+                    title: "STAYC 2023",
+                    img: "./img/mc_1_1.jpeg",
+                    price: 950000,
+                    content: [
+                        "PVC POUCH : 210 X 260mm",
+                        "DESK CALENDAR : 180 X 230mm (30P)",
+                        "DIARY : 148 X 210mm (132P)",
+                        "KEY RING : 37 X 30mm (1EA)",
+                        "STICKER : 130 X 200mm (3EA)",
+                        "FILM PHOTO : 70 X 145mm (6EA)",
+                        "PHOTOCARD : 55 X 85mm (6EA)",
+                        "POSTCARD : 100 X 150mm (6EA)",
+                        "MASKING TAPE : 10mm, 10mm (1EA)",
+                        "FOLDED POSTER : 297 X 380mm (2EA)",
+ 
+                        "FIRST PRESS LIMITED PHOTOCARD : 55 X 85mm (6EA 1SET)"
+
+                    ],
+                    imgDescription: "./img/mc_1.jpg"
+                },
+                {
+                    id: "mc_02",
+                    title: "TINYTAN",
+                    img: "./img/mc_2.jpg",
+                    price: 250000,
+                    content: null,
+                    imgDescription: "./img/mc_2_1.jpg"
+                },
+                {
+                    id: "mc_03",
+                    title: "SM ARTIST SSG",
+                    img: "./img/mc_3.png",
+                    price: 920000,
+                    content: null,
+                    imgDescription: "./img/mc_3.png"
+                },
+                {
+                    id: "mc_04",
+                    title: "NOTEBOOK MINI",
+                    img: "./img/mc_4.jpeg",
+                    price: 990000,
+                    content: null,
+                    imgDescription: "./img/mc_4.jpeg"
+                },
+                {
+                    id: "mc_05",
+                    title: "WASHI TAPE RANDOM",
+                    img: "./img/mc_5.jpg",
+                    price: 5000,
+                    content: null,
+                    imgDescription: "./img/mc_5.jpg"
+                },
+                {
+                    id: "mc_06",
+                    title: "KEYRING TXT",
+                    img: "./img/mc_6.webp",
+                    price: 20000,
+                    content: null,
+                    imgDescription: "./img/mc_6.webp"
+                },
+                {
+                    id: "mc_07",
+                    title: "BROTHER BOTTLE BTS 1000ML",
+                    img: "./img/mc_7.jpg",
+                    price: 440000,
+                    content: null,
+                    imgDescription: "./img/mc_7.jpg"
+                },
+                {
+                    id: "mc_08",
+                    title: "GOODS BTS DALMAJUNG",
+                    img: "./img/mc_8.jpg",
+                    price: 270000,
+                    content: null,
+                    imgDescription: "./img/mc_8.jpg"
+                },
+                {
+                    id: "mc_09",
+                    title: "SLEEVE ARCHIVAL",
+                    img: "./img/mc_9.jpg",
+                    price: 27000,
+                    content: null,
+                    imgDescription: "./img/mc_9.jpg"
+                },
+                {
+                    id: "mc_10",
+                    title: "BLACKPINK THE GAME COUPON",
+                    img: "./img/mc_10.webp",
+                    price: 180000,
+                    content: null,
+                    imgDescription: "./img/mc_10_1.webp"
+                },
+
+               
+    
+        ],
+            render: function(){
+                const htmls = this.items.map(item =>{
+                    return `
+                        <div class="menu_item_single">
+                            <a href="./DetailMerchandise.html?id=${item.id}">
+                                <img src="${item.img}" alt="">
+                                <div class="menu_item_name">${item.title}</div>
+                            </a>
+                        </div>
+                    `
+                })
+                $('.content_menu_max_list').innerHTML = htmls.join('')
+            },
+            start: function(){
+                this.render()
+            }
+        }
+        list.start()
+        var cart = [];
+        cart = JSON.parse(localStorage.getItem("CART")) || [];
+        let renderCart = () => {
+            let cartIcon = document.querySelector(".header_content_items a[href='./Cart.html'] span");
+            if (cart.length !== 0) {
+                let totalQuantity = cart.reduce((acc, currentValue) => acc + currentValue.item, 0);
+
+                // Cập nhật biểu tượng giỏ hàng với tổng số lượng
+                cartIcon.innerText = totalQuantity;
+            }
+        }
+        renderCart()
+
+
+         // script search
+
+        // Lắng nghe sự kiện khi người dùng nhấn nút Tìm kiếm
+const searchButton = document.getElementById('searchButton');
+searchButton.addEventListener('click', () => {
+    searchItems();
+});
+
+// Lắng nghe sự kiện khi người dùng nhấn phím Enter trong ô nhập liệu
+const searchInput = document.getElementById('searchInput');
+searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        searchItems();
+    }
+});
+
+// Hàm tìm kiếm sản phẩm
+function searchItems() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const filteredItems = list.items.filter(item => {
+        return item.title.toLowerCase().includes(searchTerm);
+    });
+    renderFilteredItems(filteredItems);
+}
+
+// Hàm hiển thị kết quả tìm kiếm
+function renderFilteredItems(filteredItems) {
+    const htmls = filteredItems.map(item => {
+        return `
+            <div class="menu_item_single">
+                <a href="./DetailMerchandise.html?id=${item.id}">
+                    <img src="${item.img}" alt="">
+                    <div class="menu_item_name">${item.title}</div>
+                </a>
+            </div>
+        `;
+    });
+    const contentMenuMaxList = document.querySelector('.content_menu_max_list');
+    contentMenuMaxList.innerHTML = htmls.join('');
+}
+    </script>
+</body>
+</html>

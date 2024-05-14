@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuAlbum</title>
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/Menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header_content">
+            <a class="header_content_logo" href="./index.html">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <div style="width: 130px; height: 100%" class="header_content_category">
+                <a href="" class="header_content_list">
+                    <span>Sản phẩm</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <div style="height: 150px;" class="header_content_product">
+                    <a href="./MenuAlbum.html">
+
+                        <span>Album</span>
+                    </a>
+                    <a href="./MenuLightStick.html">
+
+                        <span>Lightstick</span>
+                    </a>
+                    <a href="./MenuMerchandise.html">
+
+                        <span>Merchandise</span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="header_content_items">
+                <a href="./Cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Giỏ hàng</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="navigation">
+        <div class="navigation_banner">
+            <img style="height: 800px;" src="./img/banner_album.jpg" alt="">
+            <div class="navigation_banner_right">
+
+            </div>
+        </div>
+        <div class="navigation_options">
+            <div style="background-color: #957DAD;" class="navigation_option_list">
+                <a style="margin-left: 25px" href="./MenuAlbum.html">
+                    <img src="./img/icon_album2.jpg" alt="">
+                    <span style="color: #fff;"> Album</span>
+                </a>
+                <a href="./MenuLightStick.html">
+                    <img style="margin-left: 25px;" src="./img/icon_lt3.jpg" alt="">
+                    <span style="color: #fff;">Lightstick</span>
+                </a>
+                <a href="./MenuMerchandise.html">
+                    <img style="margin-left: 35px;" src="./img/icon_lt.jpg" alt="">
+                    <span style="color: #fff;">Merchandise</span>
+                </a>
+                <!-- Search -->
+                <div class="search">
+                    <input style="width: 200px;height: 40px;border-radius: 10px;border: none;padding: 0 10px;position: relative;font-size: 15px;" type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm...">
+                    <button style="background: none;border: none;position: absolute;left: 93%;margin-top: 11px;" id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- list -->
+    <div class="content_section">
+        <div class="content_menu">
+            <div class="content_menu_max">
+                <div class="content_menu_max_list">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer_container">
+            <div class="footer_container_brand">
+                <div class="footer_logo">
+                    <a href="./index.html">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                    <div class="footer_logo_internet">
+                        <a href="https://www.facebook.com/profile.php?id=100009418012261&locale=vi_VN"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/_caniburweaknd_/"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuAlbum.html">ALBUM</a></div>
+                    <p href="">
+                        Photobook ver
+                    </p>
+                    <p href="">
+                        QR ver
+                    </p>
+                    <p href="">
+                        Standard ver
+                    </p>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuLightStick.html">LIGHTSTICK</a></div>
+                    <p href="">
+                        LightStick
+                    </p>
+                    <p href="">
+                        Light Ring
+                    </p>
+                </div>
+                <div class="footer_list">
+                    <div class="footer_list_heading"><a style="color: #eb2aab; margin-top: 0; text-decoration: none;" href="./MenuMerchandise.html">MERCHANDISE</a></div>
+                    <p href="">
+                        Card bo góc
+                    </p>
+                    <p href="">
+                        Đồ trang trí
+                    </p>
+                    <p href="">
+                        Sản phẩm khác
+                    </p>
+                </div>
+            </div>
+            <div class="footer_line">
+
+            </div>
+            <div class="footer_copyright">
+                ©2024 IDOLISTIC International Corp. All Rights Reserved. 
+            </div>
+            <div class="footer_contact">
+                Liên hệ: uel@gmail.com
+            </div>
+        </div>
+    </div>
+    <!-- test -->
+    <section id="btnSection" style="position: fixed;z-index: 1;bottom: 2em;right: 2em;">
+        <div class="contact tooltip-container">
+            <button class="text"  style="width: 180px;height: 60px;border: none;background-color: #ed3fb3;border-radius: 10px;font-size: 24px;cursor: pointer;color: white;" ><i style="font-size: 24px;margin-right: 5px;" class="fa-regular fa-comment"></i> Liên hệ</button>
+            <span class="tooltip">Click Me</span>
+            
+            <span>Hello! 👋</span>
+        </div>
+        <div class="overlay"></div>
+        <div class="contact_items">
+            
+           <a  href="tel:0984858917">
+            <div class="contact_item"><img src="./img/icon_phone3.jpg" alt=""><span>0984858917</span></div>
+           </a>
+           <a  href="https://zalo.me/0984858917">
+            <div class="contact_item"><img src="./img/icon_zl.jpg" alt=""><span>0984 85 89 17</span></div>
+           </a>
+           <a  href="https://www.facebook.com/profile.php?id=100009418012261&locale=vi_VN">
+            <div class="contact_item"><img src="./img/icon_fb.png" alt=""><span>Facebook</span></div>
+           </a>
+        </div>
+    </section>
+    <script>
+
+const btnsection = document.querySelector("#btnSection");
+        const btncontact = document.querySelector(".contact_items");
+        btnsection.addEventListener("click",() =>{
+            btncontact.classList.add("active");
+            setTimeout(() => {
+                btncontact.classList.remove("active")
+            },5000);
+        })
+//
+        const $ = document.querySelector.bind(document)
+        const $$ = document.querySelectorAll.bind(document)
+
+        const list = {
+            items: [
+            {
+                    id: "album_01",
+                    title: "ALBUM TEAYONG - TAP FLIP ZINE",
+                    img: "./img/IMG_ALBUM/01_teayong.png",
+                    price: 280000,
+                    content: null,
+                    imgDescription: "./img/IMG_ALBUM/01_teayong_dt.png"
+                },
+                {
+                    id: "album_02",
+                    title: "ALBUM IU - LOVE POEM",
+                    img: "./img/IMG_ALBUM/02_lovePoem.png",
+                    price: 380000,
+                    content: [
+                        "Disc: 1",
+                        "Size: 140 * 190 * 12(mm)",
+                        "Photo cart: Random 1p out of 2p",
+                        "Bookmark: Random 1p out of 2p",
+                        "Poster: 1p(For the First press only)"
+                    ],
+                    imgDescription: "./img/IMG_ALBUM/02_lovePoem_dt.png"
+                },
+                {
+                    id: "album_03",
+                    title: "ALBUM IU - PALETTE",
+                    img: "./img/IMG_ALBUM/03_palette.png",
+                    price: 420000,
+                    content: null,
+                    imgDescription: "./img/IMG_ALBUM/03_palette_dt.png"
+                },
+                {
+                    id: "album_04",
+                    title: "ALBUM IU - THE WINNING",
+                    img: "./img/IMG_ALBUM/04_theWinning.png",
+                    price: 490000,
+                    content: [
+                        "SLEEVE: 176.5*242*19.5(mm)",
+                        "PHOTOBOOK: 172*242*17(mm) / 148p",
+                        "DISC 1: 120*120(mm)",
+                        "AccordionPhotoCart: 99 * 107(mm) / spread 528* 107(mm) / 1EA(Image varies by version)",
+                        "MUGSHOT PHOTO CARt: 100 * 148(mm) / 1EA(Image varies by version)",
+                        "CROSSWORD PUZZLE POSTCARt: 120 * 120(mm) / 1EA(Image varies by version)",
+                        "LOGO STICKER: 3EA(Image varies by version)",
+                        "HIDDEN MESSAGE CARt: 128 * 182(mm) / 1EA(Image varies by version)",
+                        "PHOTO CARt: 55 * 85(mm) / 3EA(Image varies by version)"
+                    ],
+                    imgDescription: "./img/IMG_ALBUM/04_theWinning_dt.png"
+                },
+                {
+                    id: "album_05",
+                    title: "ALBUM LISA (BLACKPINK) - LALISA",
+                    img: "./img/IMG_ALBUM/05_lisa.png",
+                    price: 430000,
+                    content: [
+                        "PACKAGE BOX : 177 x 257 x 34 (mm)",
+                        "PHOTOBOOK : 167 x 247(mm) / 88P",
+                        "LYRICS PAPAER : 140 x 195(mm) / 1EA",
+                        "RANDOM PHOTOCARt : Random 1p out of 4p",
+                        "RANDOM POLAROID : Random 1p out of 4p",
+                        "DOUBLE - SIDED POSTER : 1EA",
+                        "RANDOM RARE GOLD PHOTOCARt : Random 1p out of 4p(First Press Only)",
+                        "RARE GOLD TICKET : 1EA / ONLY 50EA(Randomly included only in some quantities of first press albums / not included in all first press)"
+                    ],
+                    imgDescription: "./img/IMG_ALBUM/05_lisa_dt.png"
+                },
+                {
+                    id: "album_06",
+                    title: "ALBUM SEULGI - 28 REASONS PHOTOBOOK VER",
+                    img: "./img/IMG_ALBUM/06_seulgi.png",
+                    price: 350000,
+                    content: [
+                        "COVER 1ea",
+                        "PHOTOBOOK 64p",
+                        "MINI POSTER: Random 1 out of 4",
+                        "PHOTOCARt: Random 1 out of 3 (Image varies with Special Ver., Case Ver.)",
+                        "FIRST-PRESS ONLY POSTER: Random 1 out of 2"
+                    ],
+                    imgDescription: "./img/IMG_ALBUM/06_seulgi_dt.png"
+                },
+                {
+                    id: "album_07",
+                    title: "ALBUM TEMPEST - TEMPEST VOYAGE",
+                    img: "./img/IMG_ALBUM/07_tempest.png",
+                    price: 270000,
+                    content: [
+                        "PACKAGE 152 x 214 x 20 mm",
+                        "PHOTO BOOK 150 x 200 mm / 1EA / 84p / Partly Thermochromic Printed on Cover",
+                        "LYRIC BOOK 110 x 145 mm / 32p",
+                        "CD-R 125 x 125 mm",
+                        "POSTCARt 150 x 210 mm / 21EA with Members' Handwritten Messages on the Back",
+                        "PHOTO CARt (unit) 55 x 85 mm / Random 1 out of 3",
+                        "PHOTO CARt (unit) 55 x 85 mm / Random 1 out of 14",
+                        "PRINTED POLAROID 100 x 125 mm / Random 1 out of 7",
+                        "STICKER 150 x 100 mm / 1EA",
+                        "PHOTO FILM (SAIL VER. ONLY) 85 x 45 mm / Random 1 out of 7",
+                        "FOLDED POSTER 300 x 210 mm"
+
+                    ],
+                    imgDescription: "./img/IMG_ALBUM/07_tempest_dt.png"
+                },
+                {
+                    id: "album_08",
+                    title: "ALBUM TWICE - WITH YOU-TH",
+                    img: "./img/IMG_ALBUM/08_twice.png",
+                    price: 380000,
+                    content: [
+                        "PHOTOBOOK 3 TYPES",
+                        "PHOTOCARt (RANDOM 5 OUT OF 45)",
+                        "CD-R 3 TYPE",
+                        "LETTER POSTER (RANDOM 1 OUT OF 9)",
+                        "3-CUT PHOTO (RANDOM 1 OUT OF 3)",
+                        "STICKER 3EA",
+                        "FLIM PHOTOCARt (RANDOM 1 OUT OF 9)",
+                        "ENVELOPE 1 TYPE"
+                    ],
+                    imgDescription: "./img/IMG_ALBUM/08_twice_dt.png"
+                },
+                {
+                    id: "album_09",
+                    title: "ALBUM WENDY - WISH YOU HELL",
+                    img: "./img/IMG_ALBUM/09_wendy.png",
+                    price: 320000,
+                    content: null,
+                    imgDescription: "./img/IMG_ALBUM/09_wendy_dt.png"
+                },
+                {
+                    id: "album_10",
+                    title: "ALBUM XIKERS [HOUSE OF TRICKY : HOW TO PLAY]",
+                    img: "./img/IMG_ALBUM/10_xikers.png",
+                    price: 280000,
+                    content: [
+                        "OUT BOX : 185*180 / 1ea (Image varies by version)",
+                        "FOLDED POSTER : 340*510 / 1ea (Image varies by version)",
+                        "PHOTOBOOK : 170*170 / 1ea (Image varies by version)",
+                        "HEART POSTCARt : 100*150 / Random 1 out of 9 (Image varies by version)",
+                        "DISC PACK : 120*120 / 1ea (Image varies by version)",
+                        "MOVING PHOTO : 80*130 / 1ea (Image varies by version)",
+                        "WIDE POLAROID : 110*80 / Random 1 out of 20 (Image varies by version)",
+                        "PHOTOCARt : 55*85 / Random 2 out of 18 (Image varies by version)",
+                        "TUTORIAL BOOK : 58*93 / 1ea (Image varies by version)",
+                        "MAGNETIC COIN : 40*40 / 1ea (Image varies by version)"
+                    ],
+                    imgDescription: "./img/IMG_ALBUM/10_xikers_dt.png"
+                },
+
+            ],
+            render: function () {
+                const htmls = this.items.map(item => {
+                    return `
+                        <div class="menu_item_single">
+                            <a href="./DetailAlbum.html?id=${item.id}">
+                                <img src="${item.img}" alt="">
+                                <div class="menu_item_name">${item.title}</div>
+                            </a>
+                        </div>
+                    `
+                })
+                $('.content_menu_max_list').innerHTML = htmls.join('')
+            },
+            start: function () {
+                this.render()
+            }
+        }
+        list.start()
+        var cart = [];
+        cart = JSON.parse(localStorage.getItem("CART")) || [];
+        let renderCart = () => {
+            let cartIcon = document.querySelector(".header_content_items a[href='./Cart.html'] span");
+            if (cart.length !== 0) {
+                let totalQuantity = cart.reduce((acc, currentValue) => acc + currentValue.item , 0);
+
+                // Cập nhật biểu tượng giỏ hàng với tổng số lượng
+                cartIcon.innerText = totalQuantity;
+            }
+        }
+        renderCart()
+        // script search
+
+        // Lắng nghe sự kiện khi người dùng nhấn nút Tìm kiếm
+const searchButton = document.getElementById('searchButton');
+searchButton.addEventListener('click', () => {
+    searchItems();
+});
+
+// Lắng nghe sự kiện khi người dùng nhấn phím Enter trong ô nhập liệu
+const searchInput = document.getElementById('searchInput');
+searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        searchItems();
+    }
+});
+
+// Hàm tìm kiếm sản phẩm
+function searchItems() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const filteredItems = list.items.filter(item => {
+        return item.title.toLowerCase().includes(searchTerm);
+    });
+    renderFilteredItems(filteredItems);
+}
+
+// Hàm hiển thị kết quả tìm kiếm
+function renderFilteredItems(filteredItems) {
+    const htmls = filteredItems.map(item => {
+        return `
+            <div class="menu_item_single">
+                <a href="./DetailAlbum.html?id=${item.id}">
+                    <img src="${item.img}" alt="">
+                    <div class="menu_item_name">${item.title}</div>
+                </a>
+            </div>
+        `;
+    });
+    const contentMenuMaxList = document.querySelector('.content_menu_max_list');
+    contentMenuMaxList.innerHTML = htmls.join('');
+}
+
+
+
+
+
+    </script>
+</body>
+
+</html>
